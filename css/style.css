@@ -29,15 +29,20 @@ figcaption {
 .main-title {
   font-weight: 100;
   text-transform: uppercase;
+  font-size: 3.5em;
+  margin-bottom: 8px;
 }
 
 .subtitle {
   font-weight: 400;
   text-transform: uppercase;
+  font-size: 1.6em;
+  color: #ff7043;
 }
 
 .main-banner {
   display: none;
+  margin-bottom: 2em;
 }
 
 .header-divider {
@@ -46,6 +51,7 @@ figcaption {
 
 .normal-text {
   font-weight: 300;
+  font-size: 1.5em;
 }
 
 .caption {
@@ -72,7 +78,6 @@ figcaption {
   .main-title {
     text-align: center;
     font-size: 2.6em;
-    margin-bottom: 4px;
   }
 
   .header-divider {
@@ -85,5 +90,11 @@ figcaption {
 
   .text-dim {
     text-align: center;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .main-banner {
+    display: block;
   }
 }
