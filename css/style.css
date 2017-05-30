@@ -1,7 +1,13 @@
-body {
-  background-color: red;
+.box {
+  height: 100px;
 }
 
-h1 {
-  font-size: 4em;
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
 }
