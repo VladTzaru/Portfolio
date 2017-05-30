@@ -16,6 +16,16 @@ figcaption {
   text-align: center;
 }
 
+a {
+  color: #ed8071;
+  transition: .2s ease-in;
+}
+
+a:hover {
+  color: #44494c;
+  text-decoration: none;
+}
+
 .logo {
   opacity: .5;
   max-width: 78px;
@@ -37,21 +47,11 @@ figcaption {
   font-weight: 400;
   text-transform: uppercase;
   font-size: 1.6em;
-  color: #ff7043;
-}
-
-.main-banner {
-  display: none;
-  margin-bottom: 2em;
+  color: #ed8071;
 }
 
 .header-divider {
   border: 1.5px solid rgba(120, 144, 156, 0.29);
-}
-
-.normal-text {
-  font-weight: 300;
-  font-size: 1.5em;
 }
 
 .caption {
@@ -84,17 +84,7 @@ figcaption {
     width: 50vw;
   }
 
-  .normal-text {
-    font-size: 1.3em;
-  }
-
   .text-dim {
     text-align: center;
-  }
-}
-
-@media screen and (min-width: 700px) {
-  .main-banner {
-    display: block;
   }
 }
