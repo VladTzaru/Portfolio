@@ -4,12 +4,15 @@ body {
   font-weight: 400;
 }
 
+
 header h1 {
   font-weight: 100;
   text-transform: uppercase;
   font-size: 3.5em;
   margin-bottom: 8px;
 }
+
+
 header p {
   font-weight: 400;
   text-transform: uppercase;
@@ -17,23 +20,28 @@ header p {
   color: #03a9f4;
 }
 
+
 figure {
   margin: 0;
 }
 
+
 figcaption {
   text-align: center;
 }
+
 
 a {
   color: #03a9f4;
   transition: .2s ease-in;
 }
 
+
 a:hover {
   color: #44494c;
   text-decoration: none;
 }
+
 
 .logo {
   opacity: .5;
@@ -41,13 +49,16 @@ a:hover {
   margin-top: 2em;
 }
 
+
 .text-dim {
   color: rgba(68, 73, 76, 0.59);
 }
 
+
 .header-divider {
   border: 1.5px solid rgba(120, 144, 156, 0.29);
 }
+
 
 .caption {
   font-size: 1.2em;
@@ -56,7 +67,9 @@ a:hover {
   color: rgba(0, 0, 0, 0.56);
 }
 
+
 /* Media Queries*/
+
 
 @media screen and (max-width: 500px) {
   .logo {
@@ -65,19 +78,23 @@ a:hover {
     margin: 24px auto 8px;
   }
 
+
   header h1 {
     text-align: center;
     font-size: 2.6em;
   }
+
 
   header p {
     text-align: center;
     font-size: 1.4em;
   }
 
+
   .header-divider {
     width: 50vw;
   }
+
 
   .text-dim {
     text-align: center;
