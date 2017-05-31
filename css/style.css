@@ -1,3 +1,4 @@
+/* General */
 body {
   font-family: 'Raleway', sans-serif;
   color: #44494c;
@@ -5,6 +6,19 @@ body {
 }
 
 
+a {
+  color: #03a9f4;
+  transition: .2s ease-in;
+}
+
+
+a:hover {
+  color: #44494c;
+  text-decoration: none;
+}
+
+
+/* Header */
 header h1 {
   font-weight: 100;
   text-transform: uppercase;
@@ -21,6 +35,19 @@ header p {
 }
 
 
+.logo {
+  opacity: .5;
+  max-width: 78px;
+  margin-top: 2em;
+}
+
+
+.header-divider {
+  border: 1.5px solid rgba(120, 144, 156, 0.29);
+}
+
+
+/* Content */
 figure {
   margin: 0;
 }
@@ -31,32 +58,8 @@ figcaption {
 }
 
 
-a {
-  color: #03a9f4;
-  transition: .2s ease-in;
-}
-
-
-a:hover {
-  color: #44494c;
-  text-decoration: none;
-}
-
-
-.logo {
-  opacity: .5;
-  max-width: 78px;
-  margin-top: 2em;
-}
-
-
 .text-dim {
   color: rgba(68, 73, 76, 0.59);
-}
-
-
-.header-divider {
-  border: 1.5px solid rgba(120, 144, 156, 0.29);
 }
 
 
@@ -69,8 +72,6 @@ a:hover {
 
 
 /* Media Queries*/
-
-
 @media screen and (max-width: 500px) {
   .logo {
     width: 60px;
