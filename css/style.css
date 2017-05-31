@@ -4,6 +4,19 @@ body {
   font-weight: 400;
 }
 
+header h1 {
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 3.5em;
+  margin-bottom: 8px;
+}
+header p {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1.6em;
+  color: #03a9f4;
+}
+
 figure {
   margin: 0;
 }
@@ -13,7 +26,7 @@ figcaption {
 }
 
 a {
-  color: #ed8071;
+  color: #03a9f4;
   transition: .2s ease-in;
 }
 
@@ -30,20 +43,6 @@ a:hover {
 
 .text-dim {
   color: rgba(68, 73, 76, 0.59);
-}
-
-.main-title {
-  font-weight: 100;
-  text-transform: uppercase;
-  font-size: 3.5em;
-  margin-bottom: 8px;
-}
-
-.subtitle {
-  font-weight: 400;
-  text-transform: uppercase;
-  font-size: 1.6em;
-  color: #ed8071;
 }
 
 .header-divider {
@@ -66,14 +65,14 @@ a:hover {
     margin: 24px auto 8px;
   }
 
-  .subtitle {
-    text-align: center;
-    font-size: 1.4em;
-  }
-
-  .main-title {
+  header h1 {
     text-align: center;
     font-size: 2.6em;
+  }
+
+  header p {
+    text-align: center;
+    font-size: 1.4em;
   }
 
   .header-divider {
