@@ -89,6 +89,37 @@ figcaption {
 }
 
 
+/* Footer */
+footer {
+  background-color: #03a9f4;
+  padding: 3em;
+  color: white;
+}
+
+
+footer a {
+  color: white;
+  margin-right: 1.2em;
+}
+
+
+.footer-title {
+  font-size: 1.3em;
+  text-transform: uppercase;
+  font-weight: 300;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.32);
+  padding-bottom: 1em;
+}
+
+
+[class*="zocial-"]:before {
+  font-family: "zocial", sans-serif;
+  font-size: 1.5em;
+  font-weight: 300;
+  padding: 4px;
+}
+
+
 /* Media Queries*/
 /* Phones */
 @media screen and (max-width: 500px) {
