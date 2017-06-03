@@ -106,7 +106,7 @@ figcaption {
 footer {
   background-color: #2e2b31;
   padding: 3em;
-  color: white;
+  color: #fff;
 }
 
 
@@ -117,7 +117,7 @@ footer a {
 
 
 footer a:hover {
-  color: white;
+  color: #fff;
 }
 
 
@@ -128,7 +128,7 @@ footer ul li {
 
 .footer-title {
   font-size: 1.3em;
-  color: white;
+  color: #fff;
   font-weight: 500;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0.32);
@@ -137,10 +137,8 @@ footer ul li {
 
 
 [class*="zocial-"]:before {
-  font-family: "zocial", sans-serif;
-  font-size: 1.5em;
-  font-weight: 300;
   padding: 4px;
+  font: 1.5em/200% zocial, sans-serif;
 }
 
 
