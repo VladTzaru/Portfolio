@@ -1,9 +1,4 @@
 /* Helpers */
-/** {
-  border: 1px solid red;
-}*/
-
-
 .addSeperationBot {
   margin-bottom: 2em;
 }
@@ -131,11 +126,6 @@ footer ul li {
 }
 
 
-footer .col-md-4 {
-  margin-bottom: 3em;
-}
-
-
 .footer-title {
   font-size: 1.3em;
   color: white;
@@ -196,18 +186,13 @@ footer .col-md-4 {
   }
 
 
-  /*footer .col-md-4 {
-     margin-bottom: 3em;
-   }*/
-
-
   footer .col-md-12 {
     text-align: center;
   }
 }
 
 
-/* Between Mobile / Tablets */
+/* Between Mobile & Tablets */
 @media screen and (min-width: 501px) and (max-width: 768px) {
   .container-feature {
     max-width: 70vw;
