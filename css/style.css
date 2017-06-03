@@ -1,3 +1,14 @@
+/* Helpers */
+/** {
+  border: 1px solid red;
+}*/
+
+
+.addSeperationBot {
+  margin-bottom: 2em;
+}
+
+
 /* General */
 body {
   font-family: "Raleway", sans-serif;
@@ -98,7 +109,7 @@ figcaption {
 
 /* Footer */
 footer {
-  background-color: #673ab7;
+  background-color: #2e2b31;
   padding: 3em;
   color: white;
 }
@@ -120,9 +131,15 @@ footer ul li {
 }
 
 
+footer .col-md-4 {
+  margin-bottom: 3em;
+}
+
+
 .footer-title {
   font-size: 1.3em;
-  color: rgba(255, 255, 255, 0.61);
+  color: white;
+  font-weight: 500;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0.32);
   padding-bottom: 1em;
@@ -176,5 +193,36 @@ footer ul li {
 
   .normal-text {
     font-size: 1.4em;
+  }
+
+
+  /*footer .col-md-4 {
+     margin-bottom: 3em;
+   }*/
+
+
+  footer .col-md-12 {
+    text-align: center;
+  }
+}
+
+
+/* Between Mobile / Tablets */
+@media screen and (min-width: 501px) and (max-width: 768px) {
+  .container-feature {
+    max-width: 70vw;
+  }
+
+
+  .main-title {
+    font-size: 2.8em;
+  }
+}
+
+
+/* Tablets */
+@media screen and (min-width: 769px) {
+  .container-feature {
+    max-width: 50vw;
   }
 }
