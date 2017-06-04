@@ -109,15 +109,21 @@ figcaption {
 
 
 .button-cta {
-  min-width: 60%;
   font-size: 1.1em;
+  font-weight: 600;
+  min-width: 5.14em;
   background-color: #03a9f4;
-  padding: 0.7em;
-  border-radius: 2px;
+  padding: 8px 22px;
+  border-radius: 3px;
   border: none;
   color: #fff;
   text-transform: uppercase;
+  cursor: pointer;
   transition: .3s ease-in;
+  -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
 }
 
 
