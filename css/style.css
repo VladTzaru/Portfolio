@@ -120,10 +120,6 @@ figcaption {
   text-transform: uppercase;
   cursor: pointer;
   transition: .3s ease-in;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 }
 
 
