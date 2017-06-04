@@ -110,6 +110,7 @@ figcaption {
 
 .button-cta {
   min-width: 60%;
+  font-size: 1.1em;
   background-color: #03a9f4;
   padding: 0.7em;
   border-radius: 2px;
@@ -121,7 +122,6 @@ figcaption {
 
 
 .button-cta:hover {
-  background-color: #0364f4;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
