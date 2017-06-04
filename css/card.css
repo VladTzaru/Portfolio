@@ -1,4 +1,4 @@
-.card {
+.card-img {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   padding: .5em;
   background-color: #455a64;
@@ -7,6 +7,6 @@
 }
 
 
-.card:hover {
+.card-img:hover {
   background-color: #03a9f4;
 }
