@@ -130,7 +130,7 @@ figcaption {
 
 .parallax {
   min-height: 250px;
-  background-image: url("../images/parallax_universe_1600_large.jpg");
+  background-image: url(../images/parallax_universe_1600_large.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
